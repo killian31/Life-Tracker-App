@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		276F9C0E291FD63000E3AB18 /* SwiftUIKit in Frameworks */ = {isa = PBXBuildFile; productRef = 276F9C0D291FD63000E3AB18 /* SwiftUIKit */; };
 		2777D2A9291D228200BF7D3F /* Life_TrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2777D2A8291D228200BF7D3F /* Life_TrackerApp.swift */; };
 		2777D2AB291D228200BF7D3F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2777D2AA291D228200BF7D3F /* ContentView.swift */; };
 		2777D2AD291D228400BF7D3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2777D2AC291D228400BF7D3F /* Assets.xcassets */; };
@@ -55,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				276F9C0E291FD63000E3AB18 /* SwiftUIKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -157,6 +159,9 @@
 			dependencies = (
 			);
 			name = "Life Tracker";
+			packageProductDependencies = (
+				276F9C0D291FD63000E3AB18 /* SwiftUIKit */,
+			);
 			productName = "Life Tracker";
 			productReference = 2777D2A5291D228200BF7D3F /* Life Tracker.app */;
 			productType = "com.apple.product-type.application";
@@ -229,6 +234,9 @@
 				Base,
 			);
 			mainGroup = 2777D29C291D228100BF7D3F;
+			packageReferences = (
+				276F9C0C291FD63000E3AB18 /* XCRemoteSwiftPackageReference "SwiftUIKit" */,
+			);
 			productRefGroup = 2777D2A6291D228200BF7D3F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -599,6 +607,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		276F9C0C291FD63000E3AB18 /* XCRemoteSwiftPackageReference "SwiftUIKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/danielsaidi/SwiftUIKit.git";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 3.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		276F9C0D291FD63000E3AB18 /* SwiftUIKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 276F9C0C291FD63000E3AB18 /* XCRemoteSwiftPackageReference "SwiftUIKit" */;
+			productName = SwiftUIKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 2777D29D291D228100BF7D3F /* Project object */;
 }
