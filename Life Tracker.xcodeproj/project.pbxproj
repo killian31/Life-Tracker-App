@@ -14,6 +14,8 @@
 		2777D2BA291D228500BF7D3F /* Life_TrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2777D2B9291D228500BF7D3F /* Life_TrackerTests.swift */; };
 		2777D2C4291D228500BF7D3F /* Life_TrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2777D2C3291D228500BF7D3F /* Life_TrackerUITests.swift */; };
 		2777D2C6291D228500BF7D3F /* Life_TrackerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2777D2C5291D228500BF7D3F /* Life_TrackerUITestsLaunchTests.swift */; };
+		2777D2D4291D29EF00BF7D3F /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2777D2D3291D29EF00BF7D3F /* MenuView.swift */; };
+		2777D2D6291D3A6200BF7D3F /* AddDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2777D2D5291D3A6200BF7D3F /* AddDataView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		2777D2BF291D228500BF7D3F /* Life TrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Life TrackerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2777D2C3291D228500BF7D3F /* Life_TrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Life_TrackerUITests.swift; sourceTree = "<group>"; };
 		2777D2C5291D228500BF7D3F /* Life_TrackerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Life_TrackerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2777D2D3291D29EF00BF7D3F /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		2777D2D5291D3A6200BF7D3F /* AddDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddDataView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				2777D2A8291D228200BF7D3F /* Life_TrackerApp.swift */,
-				2777D2AA291D228200BF7D3F /* ContentView.swift */,
+				2777D2D2291D29D300BF7D3F /* Views */,
 				2777D2AC291D228400BF7D3F /* Assets.xcassets */,
 				2777D2AE291D228400BF7D3F /* Preview Content */,
 			);
@@ -125,6 +129,16 @@
 				2777D2C5291D228500BF7D3F /* Life_TrackerUITestsLaunchTests.swift */,
 			);
 			path = "Life TrackerUITests";
+			sourceTree = "<group>";
+		};
+		2777D2D2291D29D300BF7D3F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2777D2AA291D228200BF7D3F /* ContentView.swift */,
+				2777D2D5291D3A6200BF7D3F /* AddDataView.swift */,
+				2777D2D3291D29EF00BF7D3F /* MenuView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +272,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				2777D2AB291D228200BF7D3F /* ContentView.swift in Sources */,
+				2777D2D4291D29EF00BF7D3F /* MenuView.swift in Sources */,
+				2777D2D6291D3A6200BF7D3F /* AddDataView.swift in Sources */,
 				2777D2A9291D228200BF7D3F /* Life_TrackerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
